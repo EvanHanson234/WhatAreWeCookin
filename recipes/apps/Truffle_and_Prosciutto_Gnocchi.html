@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What are we cookin'?</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="../../images/logoCircle.PNG">
+  <link rel="stylesheet" type="text/css" href="../../style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Esteban">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+</head>
+<body>
+  <hr>
+  <header>
+    <h1>what are we cookin'?</h1>
+    <div class="search-container">
+        <div class="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <input type="text" placeholder="Search" class="search-input">
+      </div>      
+  </header>
+
+    <!-- Hamburger Menu Start -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <li><a href="../../index.html#apps">Apps</a></li>
+          <li><a href="../../index.html#mains">Mains</a></li>
+          <li><a href="../../index.html#sides">Sides</a></li>
+          <li><a href="../../index.html#desserts">Desserts</a></li>
+          <li><a href="../../index.html#drinks">Drinks</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hamburger Menu End -->
+
+    <hr>
+  
+  <!-- Recipe Container -->
+  <div class="recipeContainer">
+    <div class="imgContainer">
+        <img src="../../images/logo.PNG" alt="default logo" class="recipeCoverImg">
+    </div>
+
+    <div class="recipeInfo">
+        <div class="recipeName">
+            <h2>Truffle and Prosciutto Gnocchi</h2>
+        </div>
+        <div class="recipeDescription">
+          <p>Pasta • Truffle</p>
+        </div>
+    </div>
+
+    <!-- Ingredients Container -->
+    <div class="ingredientsContainer">
+      <h3>Ingredients</h3>
+      <div class="ingredients">
+          <ul>
+              <li>Head of garlic</li>
+              <li>2 cups of gnocchi</li>
+              <li>6 strips of prosciutto</li>
+              <li>1 cup heavy cream</li>
+              <li>1 tbsp truffle oil</li>
+              <li>¼ cup chopped fresh parsley</li>
+              <li>½ cup freshly grated parmesan cheese</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+
+  <hr>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../../scroll.js"></script>
+  <div id="scroll-message" class="scroll-message">
+    <img src="../../images/arrowHome.png" alt="Home Arrow" class="arrowHome">
+  </div>
+
+  <!-- Recipe Container 2, Lower part -->
+  <div class="recipeContainer2">
+
+    <!-- Instructions Container -->
+    <div class="instructionsContainer">
+
+      <div class="instructionsTitle">
+        <h3>Instructions</h3>
+      </div>
+      <div class="instructions">
+        <p>1. Cut off the top of the garlic head, drizzle with olive oil, wrap in foil, and bake for 45 minutes at 400 degrees.</p>
+        <p>2. Cook  gnocchi until al dente while crisping 6 strips of prosciutto in an oiled pan. Remove from pan.</p>
+        <p>3. Once cooked, squeeze garlic into the prosciutto pan and mash into a paste.</p>
+        <p>4. After a few minutes, add 1 cup of heavy cream. Simmer and season to taste.</p>
+        <p>5. Add in the truffle oil, then the cooked gnocchi, crushed prosciutto, chopped parsley, grated parmesan, and a splash of pasta water to the pan.</p>
+        <p>6. Mix and enjoy!</p>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <!-- TikTok Video Container -->
+    <div class="videoContainer">
+
+      <blockquote class="tiktok-embed" 
+      cite="https://www.tiktok.com/@thesecarbsdontcount/video/7239064365201181994" 
+      data-video-id="7239064365201181994" style="max-width: 605px;min-width: 325px;" > 
+        <section> 
+          <a target="_blank" 
+            title="@thesecarbsdontcount" 
+            href="https://www.tiktok.com/@thesecarbsdontcount?refer=embed">@thesecarbsdontcount
+          </a> Gnocchi in a truffle cream sauce with crispy prosciutto 😋 
+        </section> 
+      </blockquote> 
+      <script async src="https://www.tiktok.com/embed.js"></script>
+
+
+      <div class="video-blocker1"></div> <!-- Blocker left -->
+      <div class="video-blocker2"></div> <!-- Blocker right -->
+      <div class="video-blocker3"></div> <!-- Blocker bot -->
+      <div class="video-blocker4"></div> <!-- Blocker top -->
+
+    </div>
+
+  </div>
+  
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Fridge</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

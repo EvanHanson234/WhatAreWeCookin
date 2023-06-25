@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #EDE7E3;
+  color: #0C3D45;
 }
 
 header {
@@ -37,6 +38,11 @@ a:focus,
 a:hover {
   outline: none;
   color: #F58F00;
+}
+
+h3 {
+  font-size: 22px;
+  text-align: center;
 }
 
  /*---------------------------General END-----------------------------*/
@@ -224,8 +230,6 @@ input::placeholder {
 }
 /*---------------------------Hamburger Menu END-----------------------------*/
 
-
-
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -249,6 +253,7 @@ section {
   display: flex;
   overflow-x: auto;
   padding: 10px;
+  height: 192px;
 }
 
 .recipe {
@@ -260,7 +265,7 @@ section {
   margin-right: 10px;
   margin-bottom: 10px;
   text-align: center;
-  line-height: 15px;
+  line-height: 20px;
 }
 
 .recipe-image {
@@ -309,6 +314,8 @@ hr {
 .recipeInfo {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 40px; 
   margin-left: 40px;
   width: 300px;
 }
@@ -328,11 +335,9 @@ hr {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 22px;
   margin: 40px;
   min-width: 230px; /* Set a minimum width for the div */
   min-height: 310px; /* Set a minimum width for the div */
-  width: auto; /* Allow the width to adjust based on content */
   padding-left: 20px;
   padding-right: 30px;
 
@@ -345,26 +350,126 @@ hr {
   font-family: "Oswald", sans-serif;
   font-size: 20px;
   text-align: left;
+  position: relative;
+  bottom: 20px;
 }
 
-.instructionsTitle {
-  font-size: 22px;
-  text-align: center;
+.recipeContainer2 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  width: 85%;
+  justify-content: space-between;
+  position: relative;
+  margin: auto;
 }
 
-.instructions {
+.instructionsContainer {
+  font-size: 29px;
   display: flex;
   flex-direction: column;
   position: relative;
   margin: auto;
-  font-family: "Oswald", sans-serif;
-  font-size: 17px;
+  bottom: 40px;
   width: 600px;
   padding: 30px;
-  
+}
+
+.instructionsTitle h3 {
+  font-size: 33px;
+}
+
+.instructions {
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  padding: 30px;
+
   border-width: 2px;
   border-style: solid;
   border-color: #F58F00;
+}
+
+.videoContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  top: 20px;
+  width: 400px;
+  padding: 30px;
+
+  height: 612px; /* Set a minimum width for the div */
+}
+
+.video-blocker1 {   /* video-blocker1 left */
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  width: 57px;
+  height: 600px;
+  background-color: #EDE7E3;
+  border-right: 5px solid #F58F00;
+}
+
+.video-blocker2 {   /* video-blocker2 right */
+  position: absolute;
+  top: 44px;
+  left: 385px;
+  width: 76px;
+  height: 600px;
+  background-color: #EDE7E3;
+  border-left: 5px solid #F58F00;
+}
+
+.video-blocker3 {   /* video-blocker3 bot */
+  position: absolute;
+  top: 623px;
+  left: 57px;
+  width: 333px;
+  height: 16px;
+  background-color: #EDE7E3;
+  border-top: 5px solid #F58F00;
+}
+
+.video-blocker4 {   /* video-blocker4 top */
+  position: absolute;
+  top: 44px;
+  left: 57px;
+  width: 332px;
+  height: 5px;
+  background-color: #F58F00;
+}
+
+/*----Scroll Message----*/
+.arrowHome {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.scroll-message {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  left: 48.8%;
+  bottom: 60px;
+  font-weight: bold;
+  color: #F19C79;
+  animation: bounce 3s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
 }
 
 /*---------------------------Recipe Page END-----------------------------*/
@@ -373,7 +478,7 @@ footer {
   background-color: #0C3D45;
   padding: 3px;
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -405,5 +510,5 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  background-color: #777;
+  background-color: #82C0CC;
 }
