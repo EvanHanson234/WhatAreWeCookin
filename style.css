@@ -17,14 +17,13 @@ header img {
   display: flex;
   position: absolute;
   top: 30px;
-  left: 27%;
+  left: 25.5%;
   height: 70px;
   width: 70px;
 }
 
 header h1 {
-  display: flex;
-  position: relative;
+  display: center;
   top: 5px;
   left: 34%;
   font-size: 50px;
