@@ -13,7 +13,20 @@ header {
   text-align: center;
 }
 
+header img {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  left: 27%;
+  height: 70px;
+  width: 70px;
+}
+
 header h1 {
+  display: flex;
+  position: relative;
+  top: 5px;
+  left: 34%;
   font-size: 50px;
   color: #0C3D45;
   margin-top: 20px;
@@ -398,8 +411,24 @@ hr {
   top: 20px;
   width: 400px;
   padding: 30px;
-
   height: 612px; /* Set a minimum width for the div */
+}
+
+.loadingImgContainer {
+  position: relative;
+  bottom: 19px;
+  left: 32px;
+  width: 323px;
+  height: 574px;
+  object-fit: cover;
+  display: flex;
+}
+
+.loadingImg {
+  width: 323px;
+  height: 574px;
+  object-fit: cover;
+  display: flex;
 }
 
 .video-blocker1 {   /* video-blocker1 left */

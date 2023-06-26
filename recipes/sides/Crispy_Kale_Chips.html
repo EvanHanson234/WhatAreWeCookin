@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What are we cookin'?</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="../../images/logoCircle.PNG">
+  <link rel="stylesheet" type="text/css" href="../../style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Esteban">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+</head>
+<body>
+  <hr>
+  <header>
+    <div class="titleLogo">
+      <img src="../../images/logoCircle.PNG" alt="logo" class="logo">
+    </div>
+    <h1>what are we cookin'?</h1>
+    <div class="search-container">
+        <div class="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <input type="text" placeholder="Search" class="search-input">
+      </div>      
+  </header>
+
+    <!-- Hamburger Menu Start -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <li><a href="../../index.html#apps">Apps</a></li>
+          <li><a href="../../index.html#mains">Mains</a></li>
+          <li><a href="../../index.html#sides">Sides</a></li>
+          <li><a href="../../index.html#desserts">Desserts</a></li>
+          <li><a href="../../index.html#drinks">Drinks</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hamburger Menu End -->
+
+    <hr>
+  
+  <!-- Recipe Container -->
+  <div class="recipeContainer">
+    <div class="imgContainer">
+        <img src="../../images/logo.PNG" alt="default logo" class="recipeCoverImg">
+    </div>
+
+    <div class="recipeInfo">
+        <div class="recipeName">
+            <h2>Crispy Kale Chips</h2>
+        </div>
+        <div class="recipeDescription">
+          <p>Vegetarian • Kale</p>
+        </div>
+    </div>
+
+    <!-- Ingredients Container -->
+    <div class="ingredientsContainer">
+      <h3>Ingredients</h3>
+      <div class="ingredients">
+          <ul>
+              <li>1 bunch of kale</li>
+              <li>Garlic salt to taste</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+
+  <hr>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../../javascript/scroll.js"></script>
+  <div id="scroll-message" class="scroll-message">
+    <img src="../../images/arrowHome.png" alt="Home Arrow" class="arrowHome">
+  </div>
+
+  <!-- Recipe Container 2, Lower part -->
+  <div class="recipeContainer2">
+
+    <!-- Instructions Container -->
+    <div class="instructionsContainer">
+
+      <div class="instructionsTitle">
+        <h3>Instructions</h3>
+      </div>
+      <div class="instructions">
+        <p>1. Preheat oven to 275 degrees while you clean and derib the kale.</p>
+        <p>2. Chop into chip-size pieces and spray with mild oil. Massage oil into the kale.</p>
+        <p>3. Season with garlic salt and cook for 18 minutes.</p>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <!-- TikTok Video Container -->
+    <div class="videoContainer">
+
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@mariel_darling/video/7246521417242807598" data-video-id="7246521417242807598" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@mariel_darling" href="https://www.tiktok.com/@mariel_darling?refer=embed">@mariel_darling</a> who else loves a salty snack but ✨healthy✨ <a title="cooking" target="_blank" href="https://www.tiktok.com/tag/cooking?refer=embed">#cooking</a> <a title="kale" target="_blank" href="https://www.tiktok.com/tag/kale?refer=embed">#kale</a> <a title="kalechips" target="_blank" href="https://www.tiktok.com/tag/kalechips?refer=embed">#kalechips</a> <a title="healthy" target="_blank" href="https://www.tiktok.com/tag/healthy?refer=embed">#healthy</a> <a title="healthandwellness" target="_blank" href="https://www.tiktok.com/tag/healthandwellness?refer=embed">#healthandwellness</a> <a title="snack" target="_blank" href="https://www.tiktok.com/tag/snack?refer=embed">#snack</a> <a title="healthyrecipes" target="_blank" href="https://www.tiktok.com/tag/healthyrecipes?refer=embed">#healthyrecipes</a> <a title="snackhacks" target="_blank" href="https://www.tiktok.com/tag/snackhacks?refer=embed">#snackhacks</a> <a title="chef" target="_blank" href="https://www.tiktok.com/tag/chef?refer=embed">#chef</a> <a title="kitchen" target="_blank" href="https://www.tiktok.com/tag/kitchen?refer=embed">#kitchen</a> <a title="healthyeating" target="_blank" href="https://www.tiktok.com/tag/healthyeating?refer=embed">#healthyeating</a> <a target="_blank" title="♬ Love You So - The King Khan &#38; BBQ Show" href="https://www.tiktok.com/music/Love-You-So-6728562975734515713?refer=embed">♬ Love You So - The King Khan &#38; BBQ Show</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+      <div class="video-blocker1"></div> <!-- Blocker left -->
+      <div class="video-blocker2"></div> <!-- Blocker right -->
+      <div class="video-blocker3"></div> <!-- Blocker bot -->
+      <div class="video-blocker4"></div> <!-- Blocker top -->
+
+      <div class="loadingImgContainer">
+        <img src="../../images/loadingPage.gif" alt="Loading" class="loadingImg">
+        <script src="../../javascript/loadingImg.js"></script>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Fridge</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
