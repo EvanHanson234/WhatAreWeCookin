@@ -57,7 +57,46 @@ h3 {
   text-align: center;
 }
 
- /*---------------------------General END-----------------------------*/
+/*---------------------------General END-----------------------------*/
+
+
+
+/*---------------------------Mobile Screen Styling START-----------------------------*/
+@media only screen and (max-width: 768px) {
+  header img {
+    top: 10px;
+    right: 30px;
+  }
+  
+  header h1 {
+    font-size: 30px;
+    left: 10px;
+  }
+  
+  .container {
+    margin: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+
+  /* Search Bar */
+  .search-container {
+    position: absolute;
+    top: 10px;
+    width: auto;
+  }
+  
+  .search-container:hover {
+    width: 100px;
+  }
+  
+  .search-input {
+    font-size: 7px;
+  }
+}
+/*---------------------------Mobile Screen Styling END-----------------------------*/
 
 /* Search Bar */
 .search-container {
