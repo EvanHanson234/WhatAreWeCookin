@@ -278,6 +278,12 @@ section {
   margin-bottom: 10px;
   text-align: center;
   line-height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.recipe:hover {
+  transform: scale(1.03);
+  
 }
 
 .recipe-image {
@@ -312,6 +318,11 @@ hr {
   margin-top: 20px;
   position: relative;
   top: 20px;
+  transition: transform 0.3s ease;
+}
+
+.imgContainer:hover {
+  transform: scale(1.3);
 }
 
 .recipeCoverImg {
