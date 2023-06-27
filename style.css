@@ -283,6 +283,7 @@ section {
 .recipe-image {
   width: 150px;
   height: 150px;
+  border-radius: 10% / 50%;
   object-fit: cover;
 }  
 
@@ -309,14 +310,15 @@ hr {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
+  position: relative;
+  top: 20px;
 }
 
 .recipeCoverImg {
   width: 310px;
   height: 310px;
-  position: relative;
-  top: 20px;
   object-fit: cover;
+  border-radius: 10% / 50%;
 
   border-width: 2px;
   border-style: solid;
@@ -366,6 +368,11 @@ hr {
   text-align: left;
   position: relative;
   bottom: 20px;
+}
+
+.waveContainer {
+  display: flex;
+  height: 20px;
 }
 
 .recipeContainer2 {
