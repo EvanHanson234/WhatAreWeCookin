@@ -59,13 +59,14 @@ h3 {
 
 /*---------------------------General END-----------------------------*/
 
-
-
 /*---------------------------Mobile Screen Styling START-----------------------------*/
 @media only screen and (max-width: 768px) {
   header img {
-    top: 10px;
-    right: 30px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    height: 40px;
+    width: 40px;
   }
   
   header h1 {
@@ -95,6 +96,9 @@ h3 {
   .search-input {
     font-size: 7px;
   }
+
+  /* Home Page */
+
 }
 /*---------------------------Mobile Screen Styling END-----------------------------*/
 
@@ -325,6 +329,12 @@ section {
   
 }
 
+.recipe-image-default {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
 .recipe-image {
   width: 150px;
   height: 150px;
@@ -357,11 +367,6 @@ hr {
   margin-top: 20px;
   position: relative;
   top: 20px;
-  transition: transform 0.3s ease;
-}
-
-.imgContainer:hover {
-  transform: scale(1.3);
 }
 
 .recipeCoverImg {
@@ -410,6 +415,7 @@ hr {
   border-width: 2px;
   border-style: solid;
   border-color: #F58F00;
+  border-radius: 10% / 50%;
 }
 
 .ingredients {
@@ -459,6 +465,7 @@ hr {
   border-width: 2px;
   border-style: solid;
   border-color: #F58F00;
+  border-radius: 10% / 50%;
 }
 
 .tipContainer {
