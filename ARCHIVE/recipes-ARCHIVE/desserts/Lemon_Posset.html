@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What are we cookin'?</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="../../images/logoCircle.PNG">
+  <link rel="stylesheet" type="text/css" href="../../style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Esteban">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+</head>
+<body>
+  <hr>
+  <header>
+    <div class="titleLogo">
+      <img src="../../images/logoCircle.PNG" alt="logo" class="logo">
+    </div>
+    <h1>what are we cookin'?</h1>
+    <div class="search-container">
+        <div class="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <input type="text" placeholder="Search" class="search-input">
+      </div>      
+  </header>
+
+    <!-- Hamburger Menu Start -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <li><a href="../../index.html#apps">Apps</a></li>
+          <li><a href="../../index.html#mains">Mains</a></li>
+          <li><a href="../../index.html#sides">Sides</a></li>
+          <li><a href="../../index.html#desserts">Desserts</a></li>
+          <li><a href="../../index.html#drinks">Drinks</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hamburger Menu End -->
+
+    <hr>
+  
+  <!-- Recipe Container -->
+  <div class="recipeContainer">
+    <div class="imgContainer">
+        <img src="../../images/logo.PNG" alt="default logo" class="recipeCoverImg">
+    </div>
+
+    <div class="recipeInfo">
+        <div class="recipeName">
+            <h2>Lemon Posset</h2>
+        </div>
+        <div class="recipeDescription">
+          <p>Summer • Lemon</p>
+        </div>
+    </div>
+
+    <!-- Ingredients Container -->
+    <div class="ingredientsContainer">
+      <h3>Ingredients</h3>
+      <div class="ingredients">
+          <ul>
+              <li>6 lemons (halves long ways)</li>
+              <li>1 vanilla pod</li>
+              <li>1.5 cups heavy whipping cream</li>
+              <li>¾ cup sugar</li>
+              <li>¼ + 3 tbsp fresh lemon juice</li>
+              <li>Zest 1 lemon</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+
+  <hr>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../../javascript/scroll.js"></script>
+  <div id="scroll-message" class="scroll-message">
+    <img src="../../images/arrowHome.png" alt="Home Arrow" class="arrowHome">
+  </div>
+
+  <!-- Recipe Container 2, Lower part -->
+  <div class="recipeContainer2">
+
+    <!-- Instructions Container -->
+    <div class="instructionsContainer">
+
+      <div class="instructionsTitle">
+        <h3>Instructions</h3>
+      </div>
+      <div class="instructions">
+        <p>1. Spoon out the pulp from the lemons and press through a sieve so the juice is extracted.</p>
+        <p>2. Split vanilla pod, scrape the seeds, and mash with a little sugar. Add vanilla sugar and the rest of the sugar into a pan with the whipping cream. Stir and heat for about 5 minutes.</p>
+        <p>3. Remove pan from heat and add 6.5 tbsp of lemon juice and zest. Pour mixture into lemon halves and refrigerate overnight.</p>
+        <p>4. Serve cold!</p>
+      </div>
+
+    </div>
+
+    <!-- TikTok Video Container -->
+    <div class="videoContainer">
+
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@frederikkewaerens/video/7236310300985789723" data-video-id="7236310300985789723" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@frederikkewaerens" href="https://www.tiktok.com/@frederikkewaerens?refer=embed">@frederikkewaerens</a> Lemon Posset💛🍋 Easy and creamy lemon cream with vanilla served in lemon shells! This might be my new favorite🤤 Perfect dessert to serve for guests! Go get the recipe on my blog - link in bio 🫶🏻 <a title="lemonposset" target="_blank" href="https://www.tiktok.com/tag/lemonposset?refer=embed">#lemonposset</a> <a title="lemon" target="_blank" href="https://www.tiktok.com/tag/lemon?refer=embed">#lemon</a> <a title="lemondessert" target="_blank" href="https://www.tiktok.com/tag/lemondessert?refer=embed">#lemondessert</a> <a target="_blank" title="♬ Can&#39;t Take My Eyes Off You - Original Extended Version - Boys Town Gang" href="https://www.tiktok.com/music/Can't-Take-My-Eyes-Off-You-Original-Extended-Version-6767526104761649153?refer=embed">♬ Can&#39;t Take My Eyes Off You - Original Extended Version - Boys Town Gang</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+      <div class="video-blocker1"></div> <!-- Blocker left -->
+      <div class="video-blocker2"></div> <!-- Blocker right -->
+      <div class="video-blocker3"></div> <!-- Blocker bot -->
+      <div class="video-blocker4"></div> <!-- Blocker top -->
+
+      <div class="loadingImgContainer">
+        <img src="../../images/loadingPage.gif" alt="Loading" class="loadingImg">
+        <script src="../../javascript/loadingImg.js"></script>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Fridge</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

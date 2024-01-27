@@ -1,139 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>What are we cookin'?</title>
-  <meta charset="UTF-8">
-  <link rel="icon" href="images/logoCircle.PNG">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Esteban">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logoCircle.PNG">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Esteban">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <title>What are we cookin'?</title>
 </head>
 <body>
-  <hr>
-  <header>
-    <div class="titleLogo">
-      <img src="images/logoCircle.PNG" alt="logo" class="logo">
-    </div>
-    <h1>what are we cookin'?</h1>
-    <div class="search-container">
-        <div class="search-icon">
-          <i class="fas fa-search"></i>
+
+    <header>
+        <h1>what are we cookin'?</h1>
+    </header>
+
+    <div id="banner"></div>
+
+    <div class="home-section">
+        <div class="home-category">
+            <h2>Appetizers</h2>
+            <div class="home-gallery">
+                <!-- Add your appetizer recipe cards here -->
+                <div class="home-card">
+                    <img src="images/Recipes/food1.jpg" alt="Appetizer 1">
+                    <div class="home-info">
+                        <h3>Appetizer 1</h3>
+                        <p>Description and details</p>
+                    </div>
+                </div>
+                <!-- Add more recipe cards as needed -->
+            </div>
         </div>
-        <input type="text" placeholder="Search" class="search-input">
-    </div>      
-  </header>
-
-  <hr>
-
-  <!-- Hamburger Menu Start -->
-  <nav role="navigation">
-    <div id="menuToggle">
-      <!--
-      A fake / hidden checkbox is used as click reciever,
-      so you can use the :checked selector on it.
-      -->
-      <input type="checkbox" />
-      
-      <!--
-      Some spans to act as a hamburger.
-      
-      They are acting like a real hamburger,
-      not that McDonalds stuff.
-      -->
-      <span></span>
-      <span></span>
-      <span></span>
-      
-      <!--
-      Too bad the menu has to be inside of the button
-      but hey, it's pure CSS magic.
-      -->
-      <ul id="menu">
-        <li><a href="#apps">Apps</a></li>
-        <li><a href="#mains">Mains</a></li>
-        <li><a href="#sides">Sides</a></li>
-        <li><a href="#desserts">Desserts</a></li>
-        <li><a href="#drinks">Drinks</a></li>
-      </ul>
     </div>
-  </nav>
-  <!-- Hamburger Menu End -->
-  
-  <div class="container">
-    <section id="apps">
-      <h2>Apps</h2>
-      <div class="recipe-list">
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 2</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 3</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 4</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 5</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 6</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 7</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 8</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 9</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 10</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 11</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 12</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 13</div>
-        <div class="recipe"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Recipe 14</div>
-      </div>
-    </section>
-    <hr>
-    
-    <section id="mains">
-      <h2>Mains</h2>
-      <div class="recipe-list">
-        <div class="recipe"><a href="recipes/mains/Truffle_and_Prosciutto_Gnocchi.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Truffle and Prosciutto Gnocchi</a></div>
-        <div class="recipe"><a href="recipes/mains/Spinach_and_Lemon_Cream_Tortellini.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Spinach and Lemon Cream Tortellini</a></div>
-        <div class="recipe"><a href="recipes/mains/Squash_Sando.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Squash Sando</a></div>
-        <div class="recipe"><a href="recipes/mains/Peach_and_Burrata_Chicken.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Peach and Burrata Chicken</a></div>
-        <div class="recipe"><a href="recipes/mains/Pulled_Tofu_Burger.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Pulled Tofu Burger</a></div>
-        <div class="recipe"><a href="recipes/mains/Coconut_Curry_Noodle_Soup.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Coconut Curry Noodle Soup</a></div>
-        <div class="recipe"><a href="recipes/mains/Sweet_Potato_Gnocchi_with_Brown_Butter_Sauce.html"><img src="images/Recipes/Sweet_Potato_Gnocchi.png" alt="default logo" class="recipe-image">Sweet Potato Gnocchi with Brown Butter Sauce</a></div>
-      </div>
-    </section>
-    <hr>
-    
-    <section id="sides">
-      <h2>Sides</h2>
-      <div class="recipe-list">
-        <div class="recipe"><a href="recipes/sides/Seared_Zucchini_with_Shallot_Chimichurri.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Seared Zucchini with Shallot Chimichurri</a></div>
-        <div class="recipe"><a href="recipes/sides/Asian_Inspired_Brussels_Sprouts.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Asian Inspired Brussels Sprouts</a></div>
-        <div class="recipe"><a href="recipes/sides/Crispy_Kale_Chips.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Crispy Kale Chips</a></div>
-        <div class="recipe"><a href="recipes/sides/Bright_Potato_Salad.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Bright Potato Salad</a></div>
-      </div>
-    </section>
-    <hr>
-    
-    <section id="desserts">
-      <h2>Desserts</h2>
-      <div class="recipe-list">
-        <div class="recipe"><a href="recipes/desserts/Lemon_Posset.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Lemon Posset</a></div>
-        <div class="recipe"><a href="recipes/desserts/Browned_Butter_Oatmeal_Cookies.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Browned Butter Oatmeal Cookies</a></div>
-        <div class="recipe"><a href="recipes/desserts/Espresso_Fudge_Brownies.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Espresso Fudge Brownies</a></div>
-        <div class="recipe"><a href="recipes/desserts/Raspberry_Crumble_Muffins.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Raspberry Crumble Muffins</a></div>
-      </div>
-    </section>
-    <hr>
-    
-    <section id="drinks">
-      <h2>Drinks</h2>
-      <div class="recipe-list">
-        <div class="recipe"><a href="recipes/drinks/Pineapple_Sake_Lemon_Drop.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Pineapple Sake Lemon Drop</a></div>
-        <div class="recipe"><a href="recipes/drinks/Swoon_in_June.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Swoon in June</a></div>
-        <div class="recipe"><a href="recipes/drinks/Persian_Margarita.html"><img src="images/logo.PNG" alt="default logo" class="recipe-image-default">Persian Margarita</a></div>
-      </div>
-    </section>
-  </div>
-  
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="#">Recipes</a></li>
-        <li><a href="#">Fridge</a></li>
-        <li><a href="#">Profile</a></li>
-      </ul>
-    </nav>
-  </footer>
+
+    <div class="home-section">
+        <div class="home-category">
+            <h2>Mains</h2>
+            <div class="home-gallery">
+                <!-- Add your main course recipe cards here -->
+                <!-- Example card -->
+                <a href="recipes/mains/sweet_potato_gnocchi_with_brown_butter_sauce.html">
+                    <div class="home-card">
+                        <img src="images/Recipes/Sweet_Potato_Gnocchi.png" alt="Main Course 1">
+                        <div class="home-info">
+                            <h3>Sweet Potato Gnocchi with Brown Butter Sauce</h3>
+                            <p>Description and details</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Add more recipe cards as needed -->
+            </div>
+        </div>
+    </div>
+
+    <div class="home-section">
+        <div class="home-category">
+            <h2>Desserts</h2>
+            <div class="home-gallery">
+                <!-- Add your dessert recipe cards here -->
+                <!-- Example card -->
+                <div class="home-card">
+                    <img src="images/Recipes/food3.jpg" alt="Dessert 1">
+                    <div class="home-info">
+                        <h3>Dessert 1</h3>
+                        <p>Description and details</p>
+                    </div>
+                </div>
+                <!-- Add more recipe cards as needed -->
+            </div>
+        </div>
+    </div>
+
+    <div class="home-section">
+        <div class="home-category">
+            <h2>Drinks</h2>
+            <div class="home-gallery">
+                <!-- Add your drink recipe cards here -->
+                <!-- Example card -->
+                <div class="home-card">
+                    <img src="images/Recipes/food4.jpg" alt="Drink 1">
+                    <div class="home-info">
+                        <h3>Drink 1</h3>
+                        <p>Description and details</p>
+                    </div>
+                </div>
+                <!-- Add more recipe cards as needed -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Kate & Evan Recipe Site. All Rights Reserved.
+    </footer>
+
 </body>
 </html>

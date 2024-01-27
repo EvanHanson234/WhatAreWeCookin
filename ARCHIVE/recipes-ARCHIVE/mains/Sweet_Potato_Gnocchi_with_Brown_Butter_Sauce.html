@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What are we cookin'?</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="../../images/logoCircle.PNG">
+  <link rel="stylesheet" type="text/css" href="../../style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Esteban">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+</head>
+<body>
+  <hr>
+  <header>
+    <div class="titleLogo">
+      <img src="../../images/logoCircle.PNG" alt="logo" class="logo">
+    </div>
+    <h1>what are we cookin'?</h1>
+    <div class="search-container">
+        <div class="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <input type="text" placeholder="Search" class="search-input">
+      </div>      
+  </header>
+
+    <!-- Hamburger Menu Start -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <li><a href="../../index.html#apps">Apps</a></li>
+          <li><a href="../../index.html#mains">Mains</a></li>
+          <li><a href="../../index.html#sides">Sides</a></li>
+          <li><a href="../../index.html#desserts">Desserts</a></li>
+          <li><a href="../../index.html#drinks">Drinks</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hamburger Menu End -->
+
+    <hr>
+  
+  <!-- Recipe Container -->
+  <div class="recipeContainer">
+    <div class="imgContainer">
+        <img src="../../images/Recipes/Sweet_Potato_Gnocchi.png" alt="Sweet_Potato_Gnocchi" class="recipeCoverImg">
+    </div>
+
+    <div class="recipeInfo">
+        <div class="recipeName">
+            <h2>Sweet Potato Gnocchi with Brown Butter Sauce</h2>
+        </div>
+        <div class="recipeDescription">
+          <p>Example • Example</p>
+        </div>
+    </div>
+
+    <!-- Ingredients Container -->
+    <div class="ingredientsContainer">
+      <h3>Ingredients</h3>
+      <div class="ingredients">
+          <ul>
+              <li>2 sweet potatoes (steamed)</li>
+              <li>Flour</li>
+              <li>Salt</li>
+              <li>4  leaves of sage</li>
+              <li>4 tbsp butter</li>
+              <li>3 cloves garlic (minced)</li>
+              <li>Red pepper flakes, salt, pepper</li>
+              <li>Fresh grated parmesan</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+
+  <hr>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../../javascript/scroll.js"></script>
+  <div id="scroll-message" class="scroll-message">
+    <img src="../../images/arrowHome.png" alt="Home Arrow" class="arrowHome">
+  </div>
+
+  <!-- Recipe Container 2, Lower part -->
+  <div class="recipeContainer2">
+
+    <!-- Instructions Container -->
+    <div class="instructionsContainer">
+
+      <div class="instructionsTitle">
+        <h3>Instructions</h3>
+      </div>
+      <div class="instructions">
+        <p>1. Blend skinless sweet potatoes with flour and salt until a soft dough is formed.</p>
+        <p>2. Roll out dough into a log on a floured surface and cut into gnocchi pieces. Score with a fork.</p>
+        <p>3. Boil gnocchi until they float.</p>
+        <p>4. In a saucepan, brown some butter with sage leaves and garlic.</p>
+        <p>5. Add in the gnocchi to coat in the sauce until they become crispy. Top with red pepper flakes, salt, and pepper to taste. </p>
+        <p>6. Garnish with grated parmesan!</p>
+      </div>
+
+    </div>
+
+    <!-- TikTok Video Container -->
+    <div class="videoContainer">
+
+      <!--        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@minaelleskitchen/video/7240634785750600966" data-video-id="7240634785750600966" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@minaelleskitchen" href="https://www.tiktok.com/@minaelleskitchen?refer=embed">@minaelleskitchen</a> Day 18&#47;20: coconut curry noodle soup 🍜✨ <a title="coconutcurry" target="_blank" href="https://www.tiktok.com/tag/coconutcurry?refer=embed">#coconutcurry</a> <a title="curryrecipe" target="_blank" href="https://www.tiktok.com/tag/curryrecipe?refer=embed">#curryrecipe</a> <a title="noodles" target="_blank" href="https://www.tiktok.com/tag/noodles?refer=embed">#noodles</a> <a title="tofurecipe" target="_blank" href="https://www.tiktok.com/tag/tofurecipe?refer=embed">#tofurecipe</a> <a target="_blank" title="♬ Say So (Instrumental Version) [Originally Performed by Doja Cat] - Elliot Van Coup" href="https://www.tiktok.com/music/Say-So-Instrumental-Version-6792987346171070465?refer=embed">♬ Say So (Instrumental Version) [Originally Performed by Doja Cat] - Elliot Van Coup</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>       -->
+
+      <div class="video-blocker1"></div> <!-- Blocker left -->
+      <div class="video-blocker2"></div> <!-- Blocker right -->
+      <div class="video-blocker3"></div> <!-- Blocker bot -->
+      <div class="video-blocker4"></div> <!-- Blocker top -->
+
+      <div class="loadingImgContainer">
+        <img src="../../images/loadingPage.gif" alt="Loading" class="loadingImg">
+        <script src="../../javascript/loadingImg.js"></script>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Fridge</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

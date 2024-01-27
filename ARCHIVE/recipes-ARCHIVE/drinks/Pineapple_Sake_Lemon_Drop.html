@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What are we cookin'?</title>
+  <meta charset="UTF-8">
+  <link rel="icon" href="../../images/logoCircle.PNG">
+  <link rel="stylesheet" type="text/css" href="../../style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Esteban">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+</head>
+<body>
+  <hr>
+  <header>
+    <div class="titleLogo">
+      <img src="../../images/logoCircle.PNG" alt="logo" class="logo">
+    </div>
+    <h1>what are we cookin'?</h1>
+    <div class="search-container">
+        <div class="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <input type="text" placeholder="Search" class="search-input">
+      </div>      
+  </header>
+
+    <!-- Hamburger Menu Start -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <li><a href="../../index.html#apps">Apps</a></li>
+          <li><a href="../../index.html#mains">Mains</a></li>
+          <li><a href="../../index.html#sides">Sides</a></li>
+          <li><a href="../../index.html#desserts">Desserts</a></li>
+          <li><a href="../../index.html#drinks">Drinks</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hamburger Menu End -->
+
+    <hr>
+  
+  <!-- Recipe Container -->
+  <div class="recipeContainer">
+    <div class="imgContainer">
+        <img src="../../images/logo.PNG" alt="default logo" class="recipeCoverImg">
+    </div>
+
+    <div class="recipeInfo">
+        <div class="recipeName">
+            <h2>Pineapple Sake Lemon Drop</h2>
+        </div>
+        <div class="recipeDescription">
+          <p>Sake • Summer</p>
+        </div>
+    </div>
+
+    <!-- Ingredients Container -->
+    <div class="ingredientsContainer">
+      <h3>Ingredients</h3>
+      <div class="ingredients">
+          <ul>
+              <li>Sake</li>
+              <li>Fresh pineapple juice</li>
+              <li>Fresh lemon juice</li>
+              <li>Sparkling wine (we used Vino Del Fratelli Moscato de’Asti)</li>
+              <li>Lemon Zest</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+  <div class="spacer"></div> <!-- Spacer -->
+
+  <hr>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../../javascript/scroll.js"></script>
+  <div id="scroll-message" class="scroll-message">
+    <img src="../../images/arrowHome.png" alt="Home Arrow" class="arrowHome">
+  </div>
+
+  <!-- Recipe Container 2, Lower part -->
+  <div class="recipeContainer2">
+
+    <!-- Instructions Container -->
+    <div class="instructionsContainer">
+
+      <div class="instructionsTitle">
+        <h3>Instructions</h3>
+      </div>
+      <div class="instructions">
+        <p>1. Add 2 oz sake, 1 oz pineapple juice, and 1oz lemon juice to a chilled glass. Stir.</p>
+        <p>2. Top with sparkling wine and garnish with lemon zest.</p>
+      </div>
+
+    </div>
+
+    <!-- TikTok Video Container -->
+    <div class="videoContainer">
+
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@samnicoleco/video/7081099592288308523" data-video-id="7081099592288308523" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@samnicoleco" href="https://www.tiktok.com/@samnicoleco?refer=embed">@samnicoleco</a> If you haven’t tried Sake in a cocktail this is your sign to do it 🍋🍶 <a title="cocktail" target="_blank" href="https://www.tiktok.com/tag/cocktail?refer=embed">#cocktail</a> <a title="cocktailrecipes" target="_blank" href="https://www.tiktok.com/tag/cocktailrecipes?refer=embed">#cocktailrecipes</a> <a title="recipes" target="_blank" href="https://www.tiktok.com/tag/recipes?refer=embed">#recipes</a> <a title="drinks" target="_blank" href="https://www.tiktok.com/tag/drinks?refer=embed">#drinks</a> <a title="smelllikeirishspring" target="_blank" href="https://www.tiktok.com/tag/smelllikeirishspring?refer=embed">#SmellLikeIrishSpring</a> <a title="cocktailtok" target="_blank" href="https://www.tiktok.com/tag/cocktailtok?refer=embed">#cocktailtok</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a target="_blank" title="♬ thank u, next - Vitamin String Quartet" href="https://www.tiktok.com/music/thank-u-next-6906777283055372289?refer=embed">♬ thank u, next - Vitamin String Quartet</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+      <div class="video-blocker1"></div> <!-- Blocker left -->
+      <div class="video-blocker2"></div> <!-- Blocker right -->
+      <div class="video-blocker3"></div> <!-- Blocker bot -->
+      <div class="video-blocker4"></div> <!-- Blocker top -->
+
+      <div class="loadingImgContainer">
+        <img src="../../images/loadingPage.gif" alt="Loading" class="loadingImg">
+        <script src="../../javascript/loadingImg.js"></script>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Fridge</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
