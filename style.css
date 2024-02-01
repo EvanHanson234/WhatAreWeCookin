@@ -12,6 +12,19 @@ header {
   text-align: center;
   padding: 10px;
   font-size: 130%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 20%;
+  height: 20%;
+  margin-left: 220%;
+}
+
+h1 {
+  margin-right: 37%;
 }
 
 #banner {
