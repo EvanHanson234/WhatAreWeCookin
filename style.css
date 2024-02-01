@@ -57,6 +57,7 @@ h1 {
   flex: 0 0 auto;
   margin-right: 20px;
   width: 250px; /* Adjust the width as needed */
+  height: 277.44px;
   text-align: center;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -92,6 +93,7 @@ footer {
   background-color: #0C3D45;
 }
 
+
 /* --------------- Mobile ------------------ */
 @media screen and (max-width: 650px) {
   /* Adjust styles for smaller screens (e.g., mobile devices) */
@@ -104,6 +106,9 @@ footer {
   .header-logo {
     width: 7%;
     height: auto;
+  }
+  #banner {
+    height: 150px;
   }
 }
 
