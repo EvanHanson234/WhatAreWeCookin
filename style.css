@@ -11,20 +11,19 @@ header {
   background-color: #82C0CC;
   text-align: center;
   padding: 10px;
-  font-size: 130%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .header-logo {
-  width: 20%;
-  height: 20%;
-  margin-left: 220%;
+  width: 5%;
+  height: auto;
+  padding-right: 30px;
 }
 
 h1 {
-  margin-right: 37%;
+  text-align: center;
 }
 
 #banner {
@@ -74,10 +73,11 @@ h1 {
 a {
   color: #333; /* Change the link color to blue */
   text-decoration: none; /* Remove the default underline */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
 a:hover {
-  color: blue; /* Change the link color to blue */
+  transform: scale(1.03); /* Scale the element to 110% of its original size */
 }
 
 footer {
@@ -92,6 +92,20 @@ footer {
   background-color: #0C3D45;
 }
 
+/* --------------- Mobile ------------------ */
+@media screen and (max-width: 650px) {
+  /* Adjust styles for smaller screens (e.g., mobile devices) */
+  header{
+    height: 50px;
+  }
+  h1 {
+    font-size: larger;
+  }
+  .header-logo {
+    width: 7%;
+    height: auto;
+  }
+}
 
 
 /* ------------ Text ---------------- */
